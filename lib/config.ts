@@ -1,25 +1,25 @@
 // Curated content configuration for homepage sections
 
 export const START_HERE_SLUGS = [
-  'oraciones-de-la-noche',
-  'oracion-antes-de-dormir',
-  'oracion-para-dormir-en-paz',
-  'oracion-para-terminar-el-dia-con-gratitud',
-  'oracion-para-descansar-en-dios',
-  'oracion-para-entregar-el-dia-a-dios',
+  'oraciones-de-proteccion',
+  'oracion-de-proteccion-para-la-familia',
+  'oracion-de-proteccion-para-el-hogar',
+  'oracion-para-pedir-proteccion-a-dios',
+  'oracion-para-proteccion-en-la-noche',
+  'oracion-de-proteccion-corta',
 ];
 
 export const FEATURED_SLUGS = [
-  'oracion-para-pedir-perdon-antes-de-dormir',
-  'examen-de-conciencia-de-la-noche',
-  'oracion-para-proteger-mi-hogar-en-la-noche',
-  'oracion-por-mi-familia-antes-de-dormir',
-  'oracion-para-dormir-sin-miedo',
-  'oracion-para-la-noche-cuando-estoy-preocupado',
+  'oracion-de-proteccion-contra-el-mal',
+  'oracion-de-proteccion-para-mis-hijos',
+  'oracion-para-viajar-con-proteccion',
+  'oracion-de-proteccion-en-el-trabajo',
+  'oracion-a-san-miguel-arcangel-para-proteccion',
+  'oracion-para-proteccion-y-paz-interior',
 ];
 
 // Primary prayer for main CTA
-export const PRIMARY_PRAYER_SLUG = 'oraciones-de-la-noche';
+export const PRIMARY_PRAYER_SLUG = 'oraciones-de-proteccion';
 
 // Quick action categories with icons and slugs
 export interface QuickAction {

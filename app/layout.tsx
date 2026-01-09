@@ -20,14 +20,14 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://REPLACE_AFTER_VERCE
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Oraciones de la noche - Cierra el día en paz con Dios",
-  description: "Oraciones y reflexiones originales para cerrar el día, agradecer, pedir perdón y descansar en paz con Dios.",
-  keywords: ["oraciones de la noche", "oraciones católicas", "antes de dormir", "paz interior", "reflexiones nocturnas"],
+  title: "Oraciones de protección - Oraciones para pedir protección a Dios",
+  description: "Oraciones originales para pedir protección para el hogar, la familia, los viajes y el descanso, confiando en Dios cada día.",
+  keywords: ["oraciones de protección", "oraciones católicas", "protección divina", "oraciones para la familia", "protección espiritual"],
   openGraph: {
-    title: "Oraciones de la noche",
-    description: "Oraciones y reflexiones originales para cerrar el día, agradecer, pedir perdón y descansar en paz con Dios.",
+    title: "Oraciones de protección",
+    description: "Oraciones originales para pedir protección para el hogar, la familia, los viajes y el descanso, confiando en Dios cada día.",
     url: baseUrl,
-    siteName: "Oraciones de la noche",
+    siteName: "Oraciones de protección",
     locale: "es_ES",
     type: "website",
   },

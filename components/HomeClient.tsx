@@ -64,10 +64,10 @@ export default function HomeClient({ allPages }: HomeClientProps) {
     <div className="min-h-screen">
       {/* Hero Section */}
       <Hero
-        title="Oraciones de la noche"
-        subtitle="Oraciones y reflexiones originales para cerrar el día, agradecer, pedir perdón y descansar en paz con Dios"
-        ctaText="Comenzar a rezar"
-        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-de-la-noche'}
+        title="Oraciones de protección"
+        subtitle="Oraciones originales para pedir protección para el hogar, la familia, los viajes y el descanso, confiando en Dios cada día"
+        ctaText="Comenzar a orar"
+        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-de-proteccion'}
       />
 
       {/* Main Content */}
@@ -80,7 +80,7 @@ export default function HomeClient({ allPages }: HomeClientProps) {
                 Comienza aquí
               </h2>
               <p className="text-[var(--muted)]">
-                Las oraciones esenciales para cerrar el día con paz y gratitud
+                Las oraciones esenciales para pedir protección a Dios cada día
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -99,7 +99,7 @@ export default function HomeClient({ allPages }: HomeClientProps) {
                 Destacadas
               </h2>
               <p className="text-[var(--muted)]">
-                Oraciones para proteger, perdonar y descansar confiando en Dios
+                Oraciones poderosas para la familia, el trabajo, los viajes y la paz interior
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
