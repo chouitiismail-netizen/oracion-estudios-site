@@ -20,21 +20,21 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://REPLACE_AFTER_VERCE
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Oraciones por los hijos - Oraciones para encomendar a los hijos a Dios",
-  description: "Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida.",
-  keywords: ["oraciones por los hijos", "oraciones por mis hijos", "oraciones católicas", "protección para hijos", "bendición para hijos"],
+  title: "Oraciones por el matrimonio - Oraciones para fortalecer la relación de pareja",
+  description: "Oraciones originales para fortalecer la relación, sanar heridas, recuperar la confianza y vivir el amor con Dios en el centro.",
+  keywords: ["oraciones por el matrimonio", "oraciones por mi esposo", "oraciones por mi esposa", "oraciones católicas para parejas", "oraciones para fortalecer el matrimonio"],
   openGraph: {
-    title: "Oraciones por los hijos",
-    description: "Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida.",
+    title: "Oraciones por el matrimonio",
+    description: "Oraciones originales para fortalecer la relación, sanar heridas, recuperar la confianza y vivir el amor con Dios en el centro.",
     url: baseUrl,
-    siteName: "Oraciones por los hijos",
+    siteName: "Oraciones por el matrimonio",
     locale: "es_ES",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Oraciones por los hijos",
-    description: "Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida.",
+    title: "Oraciones por el matrimonio",
+    description: "Oraciones originales para fortalecer la relación, sanar heridas, recuperar la confianza y vivir el amor con Dios en el centro.",
   },
 };
 

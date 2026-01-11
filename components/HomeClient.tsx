@@ -64,10 +64,10 @@ export default function HomeClient({ allPages }: HomeClientProps) {
     <div className="min-h-screen">
       {/* Hero Section */}
       <Hero
-        title="Oraciones por los hijos"
-        subtitle="Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida"
+        title="Oraciones por el matrimonio"
+        subtitle="Oraciones originales para fortalecer la relación, sanar heridas, recuperar la confianza y vivir el amor con Dios en el centro"
         ctaText="Comenzar a orar"
-        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-por-los-hijos'}
+        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-por-el-matrimonio'}
       />
 
       {/* Main Content */}
@@ -80,7 +80,7 @@ export default function HomeClient({ allPages }: HomeClientProps) {
                 Comienza aquí
               </h2>
               <p className="text-[var(--muted)]">
-                Las oraciones esenciales para encomendar a tus hijos a Dios
+                Las oraciones esenciales para fortalecer tu matrimonio
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -99,7 +99,7 @@ export default function HomeClient({ allPages }: HomeClientProps) {
                 Destacadas
               </h2>
               <p className="text-[var(--muted)]">
-                Oraciones poderosas para protección, salud y guía de tus hijos
+                Oraciones poderosas para sanar, reconciliar y restaurar tu matrimonio
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
