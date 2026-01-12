@@ -20,21 +20,21 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://REPLACE_AFTER_VERCE
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Oraciones de agradecimiento - Cultiva un corazón agradecido con Dios",
-  description: "Oraciones originales para dar gracias a Dios por la vida, la familia y las bendiciones; para cultivar un corazón agradecido cada día, incluso en tiempos difíciles.",
-  keywords: ["oraciones de agradecimiento", "oración para dar gracias a Dios", "oración de gratitud diaria", "oraciones de agradecimiento por la vida", "corazón agradecido"],
+  title: "Oraciones por los estudios - Fe, calma y confianza en tu camino académico",
+  description: "Oraciones y reflexiones para estudiantes, exámenes y momentos de estudio con fe, calma y confianza.",
+  keywords: ["oraciones por los estudios", "oración para estudiar bien", "oración antes de un examen", "oración para aprobar un examen", "oración para estudiantes"],
   openGraph: {
-    title: "Oraciones de agradecimiento",
-    description: "Oraciones originales para dar gracias a Dios por la vida, la familia y las bendiciones; para cultivar un corazón agradecido cada día, incluso en tiempos difíciles.",
+    title: "Oraciones por los estudios",
+    description: "Oraciones y reflexiones para estudiantes, exámenes y momentos de estudio con fe, calma y confianza.",
     url: baseUrl,
-    siteName: "Oraciones de agradecimiento",
+    siteName: "Oraciones por los estudios",
     locale: "es_ES",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Oraciones de agradecimiento",
-    description: "Oraciones originales para dar gracias a Dios por la vida, la familia y las bendiciones; para cultivar un corazón agradecido cada día, incluso en tiempos difíciles.",
+    title: "Oraciones por los estudios",
+    description: "Oraciones y reflexiones para estudiantes, exámenes y momentos de estudio con fe, calma y confianza.",
   },
 };
 

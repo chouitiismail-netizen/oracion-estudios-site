@@ -64,10 +64,10 @@ export default function HomeClient({ allPages }: HomeClientProps) {
     <div className="min-h-screen">
       {/* Hero Section */}
       <Hero
-        title="Oraciones de agradecimiento"
-        subtitle="Oraciones originales para dar gracias a Dios por la vida, la familia y las bendiciones; para cultivar un corazón agradecido cada día, incluso en tiempos difíciles"
-        ctaText="Comenzar a agradecer"
-        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-de-agradecimiento'}
+        title="Oraciones por los estudios"
+        subtitle="Oraciones y reflexiones para estudiantes, exámenes y momentos de estudio con fe, calma y confianza"
+        ctaText="Comenzar a orar"
+        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-por-los-estudios'}
       />
 
       {/* Main Content */}
@@ -80,7 +80,7 @@ export default function HomeClient({ allPages }: HomeClientProps) {
                 Comienza aquí
               </h2>
               <p className="text-[var(--muted)]">
-                Oraciones esenciales para cultivar un corazón agradecido
+                Oraciones esenciales para estudiantes, concentración y exámenes
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -99,7 +99,7 @@ export default function HomeClient({ allPages }: HomeClientProps) {
                 Oraciones destacadas
               </h2>
               <p className="text-[var(--muted)]">
-                Profundiza en la gratitud por la salud, el trabajo y la provisión divina
+                Oraciones para memoria, éxito académico y estudiar sin ansiedad
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

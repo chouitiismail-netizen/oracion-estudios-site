@@ -1,9 +1,9 @@
-# Oraciones por los hijos - Production Ready
+# Oraciones por los estudios - Production Ready
 
 ## Site Overview
-**Satellite Name:** Oraciones por los hijos
-**Tagline:** Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida.
-**Primary Category:** hijos
+**Satellite Name:** Oraciones por los estudios
+**Tagline:** Oraciones y reflexiones para estudiantes, exámenes y momentos de estudio con fe, calma y confianza.
+**Primary Category:** estudios
 **Total Pages:** 27 (25 spiritual + 2 legal)
 **Main Brand URL:** https://www.jesuscontigo.org/
 
@@ -18,21 +18,21 @@
 ### Spiritual Pages (25)
 All pages have complete, original Catholic content with:
 - Valid YAML frontmatter
-- category: "hijos"
-- Rich, meaningful prayers
+- category: "estudios"
+- Rich, meaningful prayers for students
 - Multiple sections per page
 - SEO-optimized metadata
 - Keywords aligned with search intent
 
 Key pages include:
-- oraciones-por-los-hijos (primary)
-- oracion-por-mis-hijos
-- oracion-para-proteger-a-mis-hijos
-- oracion-por-los-hijos-antes-de-dormir
-- oracion-por-un-hijo-enfermo
-- oracion-por-un-hijo-rebelde
-- oracion-por-los-hijos-adolescentes
-- oracion-por-los-hijos-pequenos
+- oraciones-por-los-estudios (primary)
+- oracion-para-estudiar-bien
+- oracion-antes-de-un-examen
+- oracion-para-aprobar-un-examen
+- oracion-para-concentrarse-al-estudiar
+- oracion-para-estudiantes
+- oracion-para-la-memoria-y-concentracion
+- oracion-para-los-examenes-finales
 - And 17 more...
 
 ### Legal Pages (2)
@@ -51,43 +51,43 @@ Only accessible via footer/header links.
 
 ### Homepage Sections
 1. **Hero Section**
-   - Title: "Oraciones por los hijos"
-   - Subtitle: Premium, conversion-focused copy
-   - CTA: Links to primary prayer
+   - Title: "Oraciones por los estudios"
+   - Subtitle: "Oraciones y reflexiones para estudiantes, exámenes y momentos de estudio con fe, calma y confianza"
+   - CTA: "Comenzar a orar" → primary prayer
 
 2. **Comienza Aquí** (6 pages)
-   - oraciones-por-los-hijos
-   - oracion-por-mis-hijos
-   - oracion-para-proteger-a-mis-hijos
-   - oracion-por-los-hijos-antes-de-dormir
-   - oracion-para-encomendar-a-los-hijos-a-dios
-   - oracion-para-bendecir-a-los-hijos
+   - oraciones-por-los-estudios
+   - oracion-para-estudiar-bien
+   - oracion-antes-de-un-examen
+   - oracion-para-aprobar-un-examen
+   - oracion-para-concentrarse-al-estudiar
+   - oracion-para-estudiantes
 
 3. **Destacadas** (6 pages)
-   - oracion-por-los-hijos-pequenos
-   - oracion-por-los-hijos-adolescentes
-   - oracion-por-un-hijo-enfermo
-   - oracion-por-un-hijo-rebelde
-   - oracion-por-el-futuro-de-mis-hijos
-   - oracion-por-los-hijos-cuando-sufren
+   - oracion-para-la-memoria-y-concentracion
+   - oracion-para-los-examenes-finales
+   - oracion-para-estudiar-sin-ansiedad
+   - oracion-para-confiar-antes-de-un-examen
+   - oracion-para-aprender-mejor
+   - oracion-para-rendir-bien-en-clase
 
 4. **Search & Filter**
    - Real-time search by title/description/keywords
-   - Category filter (only shows "hijos" - legal excluded)
+   - Category filter (only shows "estudios" - legal excluded)
    - Dynamic results count
 
 5. **All Pages Grid**
    - Excludes curated pages
    - Excludes legal pages
-   - Category "hijos" only
+   - Category "estudios" only
 
 ### Article Pages
 Each article includes:
-- ✅ Breadcrumbs (Home > hijos > title)
+- ✅ Breadcrumbs (Home > estudios > title)
 - ✅ Category badge
 - ✅ Updated date
 - ✅ Rich content with sections
-- ✅ Disclaimer: "Contenido espiritual. No sustituye ayuda profesional."
+- ✅ Disclaimer: "Contenido espiritual. No sustituye asesoramiento profesional."
 - ✅ Related articles (same category, limit 6)
 - ✅ Back to home link
 
@@ -104,15 +104,15 @@ Each article includes:
 ### Metadata Examples
 **Homepage:**
 ```typescript
-title: "Oraciones por los hijos - Oraciones para encomendar a los hijos a Dios"
-description: "Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida."
-keywords: ["oraciones por los hijos", "oraciones por mis hijos", "oraciones católicas", "protección para hijos", "bendición para hijos"]
+title: "Oraciones por los estudios - Fe, calma y confianza en tu camino académico"
+description: "Oraciones y reflexiones para estudiantes, exámenes y momentos de estudio con fe, calma y confianza."
+keywords: ["oraciones por los estudios", "oración para estudiar bien", "oración antes de un examen", "oración para aprobar un examen", "oración para estudiantes"]
 ```
 
 **Article Pages:**
 ```yaml
-metaTitle: "[Title] | Oraciones por los hijos"
-metaDescription: "Oración católica para [intent]..."
+metaTitle: "[Title] - [Specific benefit]"
+metaDescription: "Oración para [specific student need]..."
 keywords: ["specific", "relevant", "keywords"]
 canonical: "https://BASE_URL/slug"
 ```
@@ -120,9 +120,9 @@ canonical: "https://BASE_URL/slug"
 ## Branding & Design
 
 ### Site Identity
-- **Name:** Oraciones por los hijos
+- **Name:** Oraciones por los estudios
 - **Logo/Icon:** Cross symbol (consistent)
-- **Color Palette:** Warm, trustworthy Catholic aesthetic
+- **Color Palette:** Calm, trustworthy Catholic aesthetic
   - Accent: #d17b27 (warm orange)
   - Foreground: #50435d (deep purple)
   - Background: #f7f7f6 (soft cream)
@@ -170,11 +170,12 @@ canonical: "https://BASE_URL/slug"
 - ✅ Optimized fonts (Google Fonts)
 
 ## Legal Compliance
-- ✅ Aviso Legal updated with hijos branding
+- ✅ Aviso Legal updated with estudios branding
 - ✅ Política de Privacidad updated
 - ✅ Disclaimer on all spiritual pages
 - ✅ Clear attribution to Jesús Contigo
-- ✅ No medical/psychological advice claims
+- ✅ No medical/psychological/academic advice claims
+- ✅ Encouragement to seek professional help when needed
 
 ## What's Left
 **Nothing.** The site is production-ready.
@@ -207,7 +208,7 @@ vercel --prod
 ## Quality Checklist
 - [x] 25 spiritual MDX pages generated
 - [x] 2 legal pages created and updated
-- [x] All branding updated to "Oraciones por los hijos"
+- [x] All branding updated to "Oraciones por los estudios"
 - [x] Homepage sections configured
 - [x] Search and filters working
 - [x] Article pages with breadcrumbs
@@ -221,21 +222,21 @@ vercel --prod
 - [x] Disclaimer on spiritual pages
 - [x] CTA to Jesús Contigo everywhere
 - [x] Zero TypeScript errors
-- [x] Build passes
+- [x] Build passes (27 pages)
 - [x] Dev server works
 - [x] Premium design maintained
 - [x] Catholic spiritual tone
-- [x] SEO optimized
+- [x] SEO optimized for student keywords
 - [x] Mobile responsive
 
 ## Files Modified/Created
 
 ### Configuration
-- lib/config.ts - Updated with hijos content
-- package.json - No changes needed
+- lib/config.ts - Updated with estudios content
+- package.json - Updated name to "oracion-estudios-site"
 
 ### Content
-- content/pages/*.mdx - 25 new hijos pages
+- content/pages/*.mdx - 25 new estudios pages
 - content/pages/aviso-legal.mdx - Updated
 - content/pages/politica-de-privacidad.mdx - Updated
 
@@ -246,8 +247,9 @@ vercel --prod
 - app/layout.tsx - Updated metadata
 - app/[slug]/page.tsx - Updated siteName
 
-### Scripts
-- scripts/generate-hijos-content.js - Content generator (can be reused)
+### Documentation
+- README.md - Updated for estudios site
+- DEPLOYMENT_READY.md - This file
 
 ### Build Output
 - .next/ - Clean build, 33 routes generated

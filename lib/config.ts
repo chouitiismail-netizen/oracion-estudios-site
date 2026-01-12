@@ -1,25 +1,25 @@
 // Curated content configuration for homepage sections
 
 export const START_HERE_SLUGS = [
-  'oraciones-de-agradecimiento',
-  'oracion-de-agradecimiento',
-  'oracion-para-dar-gracias-a-dios',
-  'oracion-de-gratitud-diaria',
-  'oracion-de-agradecimiento-por-la-vida',
-  'oracion-de-agradecimiento-por-la-familia',
+  'oraciones-por-los-estudios',
+  'oracion-para-estudiar-bien',
+  'oracion-antes-de-un-examen',
+  'oracion-para-aprobar-un-examen',
+  'oracion-para-concentrarse-al-estudiar',
+  'oracion-para-estudiantes',
 ];
 
 export const FEATURED_SLUGS = [
-  'oracion-de-agradecimiento-por-el-trabajo',
-  'oracion-de-agradecimiento-por-un-nuevo-dia',
-  'oracion-de-agradecimiento-por-bendiciones',
-  'oracion-para-agradecer-aun-en-dificultad',
-  'oracion-de-agradecimiento-por-salud',
-  'oracion-de-agradecimiento-por-proteccion',
+  'oracion-para-la-memoria-y-concentracion',
+  'oracion-para-los-examenes-finales',
+  'oracion-para-estudiar-sin-ansiedad',
+  'oracion-para-confiar-antes-de-un-examen',
+  'oracion-para-aprender-mejor',
+  'oracion-para-rendir-bien-en-clase',
 ];
 
 // Primary prayer for main CTA
-export const PRIMARY_PRAYER_SLUG = 'oraciones-de-agradecimiento';
+export const PRIMARY_PRAYER_SLUG = 'oraciones-por-los-estudios';
 
 // Quick action categories with icons and slugs
 export interface QuickAction {
@@ -30,20 +30,20 @@ export interface QuickAction {
 }
 
 export const QUICK_ACTIONS: QuickAction[] = [
-  { id: 'vida', label: 'Por la vida', icon: 'gratitude', slug: 'oracion-de-agradecimiento-por-la-vida' },
-  { id: 'familia', label: 'Por la familia', icon: 'family', slug: 'oracion-de-agradecimiento-por-la-familia' },
-  { id: 'bendiciones', label: 'Bendiciones', icon: 'trust', slug: 'oracion-de-agradecimiento-por-bendiciones' },
-  { id: 'provision', label: 'Provisión', icon: 'protection', slug: 'oracion-de-agradecimiento-por-provision' },
-  { id: 'dificultad', label: 'En dificultad', icon: 'anxiety', slug: 'oracion-para-agradecer-aun-en-dificultad' },
+  { id: 'examen', label: 'Antes examen', icon: 'trust', slug: 'oracion-antes-de-un-examen' },
+  { id: 'concentracion', label: 'Concentración', icon: 'gratitude', slug: 'oracion-para-concentrarse-al-estudiar' },
+  { id: 'ansiedad', label: 'Sin ansiedad', icon: 'anxiety', slug: 'oracion-para-estudiar-sin-ansiedad' },
+  { id: 'memoria', label: 'Memoria', icon: 'protection', slug: 'oracion-para-la-memoria-y-concentracion' },
+  { id: 'confianza', label: 'Confianza', icon: 'family', slug: 'oracion-para-confiar-antes-de-un-examen' },
 ];
 
 // Daily verse for spiritual inspiration
 export const DAILY_VERSES = [
-  { text: 'Dad gracias en todo, porque esta es la voluntad de Dios para con vosotros en Cristo Jesús.', reference: '1 Tesalonicenses 5:18' },
-  { text: 'Entrad por sus puertas con acción de gracias, por sus atrios con alabanza; alabadle, bendecid su nombre.', reference: 'Salmo 100:4' },
-  { text: 'Alabad al Señor, porque él es bueno; porque para siempre es su misericordia.', reference: 'Salmo 107:1' },
-  { text: 'Todo lo que respira alabe al Señor. Aleluya.', reference: 'Salmo 150:6' },
-  { text: 'Por tanto, ofrezcamos siempre a Dios, por medio de él, sacrificio de alabanza, es decir, fruto de labios que confiesan su nombre.', reference: 'Hebreos 13:15' },
+  { text: 'Si alguno de vosotros tiene falta de sabiduría, pídala a Dios, el cual da a todos abundantemente y sin reproche, y le será dada.', reference: 'Santiago 1:5' },
+  { text: 'Instruye al niño en su camino, y aun cuando fuere viejo no se apartará de él.', reference: 'Proverbios 22:6' },
+  { text: 'Porque yo sé los pensamientos que tengo acerca de vosotros, dice Jehová, pensamientos de paz, y no de mal, para daros el fin que esperáis.', reference: 'Jeremías 29:11' },
+  { text: 'Todo lo puedo en Cristo que me fortalece.', reference: 'Filipenses 4:13' },
+  { text: 'Confía en Jehová de todo tu corazón, y no te apoyes en tu propia prudencia.', reference: 'Proverbios 3:5' },
 ];
 
 export function getDailyVerse() {

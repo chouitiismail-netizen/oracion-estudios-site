@@ -1,10 +1,10 @@
-# Oraciones por el matrimonio
+# Oraciones por los estudios
 
-Sitio web católico dedicado a oraciones para fortalecer el matrimonio, sanar heridas, recuperar la confianza y vivir el amor con Dios en el centro.
+Sitio web católico dedicado a oraciones para estudiantes, exámenes y momentos de estudio con fe, calma y confianza en Dios.
 
 ## Características
 
-- **25 oraciones originales** sobre temas matrimoniales
+- **25 oraciones originales** sobre temas académicos y estudios
 - **Arquitectura robusta**: Next.js 16 + TypeScript + Tailwind CSS
 - **SEO optimizado**: Metadata completa, canonical URLs, sitemap, robots.txt
 - **Diseño premium**: Tipografía (Fraunces + Inter), colores armoniosos, responsive
@@ -14,7 +14,7 @@ Sitio web católico dedicado a oraciones para fortalecer el matrimonio, sanar he
 ## Estructura
 
 ```
-oracion-matrimonio-site/
+oracion-estudios-site/
 ├── app/
 │   ├── layout.tsx          # Layout raíz con metadata
 │   ├── page.tsx            # Homepage (servidor)
@@ -52,14 +52,14 @@ npm start
 
 ### Oraciones principales (25)
 
-Temas: fortalecer matrimonio, salvar relación, crisis matrimonial, comunicación, reconciliación, perdón, sanar heridas, restaurar confianza, infidelidad, problemas de pareja, amor, paciencia, paz en el hogar, discusiones, unidad matrimonial, bendiciones, y más.
+Temas: estudiar bien, exámenes, concentración, memoria, ansiedad académica, éxito académico, disciplina, estudiantes universitarios, aprobar exámenes, claridad mental, confianza, perseverancia, y más.
 
 ### Secciones homepage
 
 1. **Hero**: CTA principal a oración destacada
-2. **Comienza aquí**: 6 oraciones esenciales
-3. **Destacadas**: 6 oraciones poderosas
-4. **Búsqueda y filtros**: Todas las oraciones (matrimonio only)
+2. **Comienza aquí**: 6 oraciones esenciales para estudiantes
+3. **Destacadas**: 6 oraciones poderosas para exámenes y aprendizaje
+4. **Búsqueda y filtros**: Todas las oraciones (estudios only)
 5. **Footer**: Enlaces legales + CTA
 
 ### Páginas legales (categoría: "legal")
@@ -104,6 +104,7 @@ Temas: fortalecer matrimonio, salvar relación, crisis matrimonial, comunicació
 ✅ Sin crashes de runtime
 ✅ Diseño responsive y moderno
 ✅ Legal pages funcionando correctamente
+✅ Disclaimer en páginas de oración
 
 ## Licencia
 
