@@ -1,0 +1,22 @@
+{
+  "name": "Oraciones por los estudios",
+  "short_name": "Oraciones Estudios",
+  "description": "Oraciones y reflexiones para estudiantes, exámenes y momentos de estudio con fe, calma y confianza.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f7f6",
+  "theme_color": "#d17b27",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

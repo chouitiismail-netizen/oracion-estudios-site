@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="20" fill="#f7f7f6"/>
+  <!-- Book/Study base -->
+  <path d="M20 25 L50 15 L80 25 L80 75 L50 85 L20 75 Z" fill="#50435d" opacity="0.1"/>
+  <path d="M50 15 L50 85" stroke="#50435d" stroke-width="2"/>
+  <!-- Cross overlay -->
+  <rect x="45" y="30" width="10" height="40" rx="2" fill="#d17b27"/>
+  <rect x="35" y="40" width="30" height="10" rx="2" fill="#d17b27"/>
+  <!-- Subtle glow -->
+  <circle cx="50" cy="50" r="25" fill="#d17b27" opacity="0.1"/>
+</svg>

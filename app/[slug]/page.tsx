@@ -4,12 +4,14 @@ import type { Metadata } from 'next';
 import { getAllPages, getPageBySlug, getRelatedSpiritualPages } from '../../lib/content';
 import Container from '../../components/ui/Container';
 import Card from '../../components/ui/Card';
+import JsonLd from '../../components/JsonLd';
+import { generateArticlePageSchema } from '../../lib/seo';
 
 export async function generateStaticParams() {
     return getAllPages().map((p) => ({ slug: p.slug }));
 }
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://REPLACE_AFTER_VERCEL.vercel.app";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://oracion-estudios-site.vercel.app";
 
 export async function generateMetadata({
     params,
@@ -63,6 +65,8 @@ export default async function ArticlePage({
     const sections = parseContent(page.content);
 
     return (
+        <>
+        <JsonLd data={generateArticlePageSchema(page)} />
         <div className="min-h-screen pb-8">
             <Container maxWidth="md" className="pt-6 space-y-6">
                 {/* Breadcrumb - only for spiritual pages */}
@@ -159,6 +163,7 @@ export default async function ArticlePage({
                 </div>
             </Container>
         </div>
+        </>
     );
 }
 
